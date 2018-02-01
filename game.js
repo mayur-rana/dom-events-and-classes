@@ -46,11 +46,11 @@ function updateCounts () {
   var arr = document.getElementsByClassName('board')[0].children;
   for (var i = 0; i < arr.length; i++){
     if (arr[i].classList.contains('blue')){
-      totals.blue += 1;
+      totals.blue ++ ;
     }else if (arr[i].classList.contains('green')){
-      totals.green += 1;
+      totals.green ++ ;
     }else if (arr[i].classList.contains('invisible')){
-      totals.invisible += 1;
+      totals.invisible ++ ;
     }
   }
 
